@@ -421,7 +421,7 @@ SOCKSIZE SocketBuffer::writeLine(const string& str) {
       buf[len - 1] = '\n';
     }
     auto stat = write(buf, len);
-    delete buf;
+    free(buf);
     return stat;
   }
   else {

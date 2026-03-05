@@ -97,17 +97,15 @@ int main(int argc, const char* argv[])
     film_2->display(cout);
     film_3->display(cout);
 
-    /*film_2-> display(std::cout);
-    film_2 ->play();
-
-    film_2 ->setChapters(tab_test,5);
-    film_2->display(std::cout);
-
-    delete film;
-    delete film_2;
-
-    film->display(std::cout);
-    film_2->display(std::cout);*/
+    // film_2-> display(std::cout);
+    // film_2 ->play();
+    // film_2 ->setChapters(tab_test,5);
+    // film_2->display(std::cout);
+    // delete film;
+    // delete film_2;
+    // film->display(std::cout);
+    // film_2->display(std::cout);
+    */
 
     /*Photo* lyon_2 = new Photo("68", "/cal/exterieurs/acurinier-21/Curinier_Augustin/68.jpg",
                               2,2);
